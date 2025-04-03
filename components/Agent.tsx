@@ -10,7 +10,7 @@ enum CallStatus {
 }
 
 const Agent = ({ userName }: AgentProps) => {
-  const callStatus = CallStatus.FINISHED; // This would be dynamic in a real application
+  const callStatus = CallStatus.ACTIVE; // This would be dynamic in a real application
   const isSpeaking = true;
   const messages = [
     "Whats your name?",
