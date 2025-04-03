@@ -12,7 +12,7 @@ const DisplayTechIcons = async ({ techStack }: TechIconProps) => {
           key={tech}
           className={cn(
             `relative group bg - dark - 300 rounded - full p - 2 flex - center`,
-            index >= 1 && "-mt-3"
+            index >= 1 && "-ml-3"
           )}
         >
           <span className="tech-tooltip">{tech}</span>
